@@ -1,12 +1,12 @@
-import React, { Suspense, lazy } from 'react';
-import ReactDOM from 'react-dom/client';
-import { HelmetProvider } from 'react-helmet-async';
-import './index.css';
+import React, { Suspense, lazy } from "react";
+import ReactDOM from "react-dom/client";
+import { HelmetProvider } from "react-helmet-async";
+import "./index.css";
 
-const App = lazy(() => import('./App'));
-const BlogApp = lazy(() => import('./BlogApp.tsx'));
+const App = lazy(() => import("./App.tsx"));
+const BlogApp = lazy(() => import("./BlogApp.tsx"));
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 if (!rootElement) {
   throw new Error("Could not find root element to mount to");
 }
@@ -14,7 +14,7 @@ if (!rootElement) {
 // Check if we're on a blog subdomain OR accessing a local /blog path
 const hostname = window.location.hostname;
 const pathname = window.location.pathname;
-const isBlog = hostname.startsWith('blog.') || pathname.startsWith('/blog');
+const isBlog = hostname.startsWith("blog.") || pathname.startsWith("/blog");
 
 // Simple loading fallback
 const Loader = () => (
@@ -31,5 +31,5 @@ root.render(
         {isBlog ? <BlogApp /> : <App />}
       </Suspense>
     </HelmetProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
