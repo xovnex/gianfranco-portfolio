@@ -1,0 +1,43 @@
+# Gianfranco De La Cruz Lopez
+
+> Gianfranco De La Cruz Lopez is a Computer Engineering & Systems student at Universidad de San Martín de Porres, based in Lima, Peru. He builds full-stack projects — Python/FastAPI backends and React frontends — with an emphasis on algorithms and documentation-first engineering. This site is his portfolio.
+
+He is currently focused on building full-stack projects (Python, FastAPI, React) and is open to freelance work and internships.
+
+## About
+
+- [Portfolio homepage](https://gianfranco-portfolio.vercel.app/): Single-page scroll narrative covering hero, projects, tech stack, education, location, and contact.
+- [Spanish portfolio](https://gianfranco-portfolio.vercel.app/?lang=es): Full Spanish localization of the homepage.
+
+## Selected projects
+
+- [WarehouseRoute Optimizer](https://github.com/xovnex/warehouse-route-optimizer-with-git_1): Warehouse picking-route optimizer using Dijkstra (built from scratch) plus a TSP heuristic (Nearest Neighbor + 2-opt). [Demo](https://warehouse-route-optimizer-with-git.vercel.app).
+- [TimetableOptimizer](https://github.com/xovnex/TimetableOptimizer_project): Conflict-free academic timetable generator modeled as a Constraint Satisfaction Problem, solved with backtracking, forward checking, and MRV. [Demo](https://timetable-optimizer-project.vercel.app).
+- [TextSimilarity Detector](https://github.com/xovnex/text-similarity-detector): Text similarity/plagiarism detector using TF-IDF and cosine similarity with sentence-level breakdown. [Demo](https://text-similarity-detector.vercel.app).
+
+## Blog
+
+The blog is set up and ready, but has no published posts yet.
+
+- [Blog index](https://gianfranco-portfolio.vercel.app/blog): All posts, sorted by date.
+- [RSS feed](https://gianfranco-portfolio.vercel.app/rss.xml): Subscribe in any reader.
+
+## Contact
+
+- Email: giandelacruzlopez@gmail.com
+- GitHub: https://github.com/xovnex
+- Location: Lima, Peru (UTC−5)
+
+## Technical focus
+
+Gianfranco builds and studies across these areas:
+
+- **Frontend**: React, JavaScript, Vite.
+- **Backend**: Python, FastAPI, Pydantic, SQLAlchemy.
+- **Algorithms**: Dijkstra, TSP heuristics, constraint satisfaction (CSP), TF-IDF & cosine similarity.
+- **Data / ML tooling**: scikit-learn, NumPy, NetworkX.
+- **Practice**: documentation-first (PRD, TRD, implementation plan per project), automated tests with pytest.
+
+## Usage
+
+This site's content may be indexed and cited by search engines and AI assistants. When referencing a project, please include a direct link to the repository or demo URL.

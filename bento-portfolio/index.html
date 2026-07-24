@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Apply stored or system theme synchronously to avoid a flash of the wrong theme. -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = stored ? stored === 'dark' : prefersDark;
+          if (isDark) document.documentElement.classList.add('dark');
+        } catch (_) { /* ignore */ }
+      })();
+    </script>
+    
+    <!-- Primary Meta Tags -->
+    <title>Gianfranco De La Cruz Lopez | Software Developer</title>
+    <meta name="title" content="Gianfranco De La Cruz Lopez | Software Developer" />
+    <meta name="description" content="Portfolio of Gianfranco De La Cruz Lopez, a Computer Engineering & Systems student from Lima, Peru building full-stack projects with Python, FastAPI, and React." />
+    <meta name="keywords" content="Gianfranco De La Cruz Lopez, software developer, React developer, Python developer, FastAPI developer, computer engineering student, software developer Peru, Lima software developer" />
+    <meta name="author" content="Gianfranco De La Cruz Lopez" />
+    <meta name="application-name" content="Gianfranco De La Cruz Lopez" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="language" content="Spanish" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/profile.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/profile.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/profile.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="alternate" type="application/rss+xml" title="Gianfranco De La Cruz Lopez Blog RSS Feed" href="/rss.xml" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gianfranco-portfolio.vercel.app/" />
+    <meta property="og:title" content="Gianfranco De La Cruz Lopez | Software Developer" />
+    <meta property="og:description" content="Portfolio of Gianfranco De La Cruz Lopez, a Computer Engineering & Systems student from Lima, Peru building full-stack projects with Python, FastAPI, and React." />
+    <meta property="og:image" content="https://gianfranco-portfolio.vercel.app/profile.png" />
+    <meta property="og:image:alt" content="Gianfranco De La Cruz Lopez - Software Developer" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:locale" content="es_PE" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:site_name" content="Gianfranco De La Cruz Lopez - Portfolio" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://gianfranco-portfolio.vercel.app/" />
+    <meta name="twitter:title" content="Gianfranco De La Cruz Lopez | Software Developer" />
+    <meta name="twitter:description" content="Portfolio of Gianfranco De La Cruz Lopez, a Computer Engineering & Systems student from Lima, Peru building full-stack projects with Python, FastAPI, and React." />
+    <meta name="twitter:image" content="https://gianfranco-portfolio.vercel.app/profile.png" />
+    <meta name="twitter:image:alt" content="Gianfranco De La Cruz Lopez - Software Developer" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#080808" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F5F4F1" media="(prefers-color-scheme: light)" />
+    <meta name="msapplication-TileColor" content="#080808" />
+    
+    <!-- Canonical URL & Language Alternates -->
+    <link rel="canonical" href="https://gianfranco-portfolio.vercel.app/" />
+    <link rel="alternate" hreflang="en" href="https://gianfranco-portfolio.vercel.app/" />
+    <link rel="alternate" hreflang="es" href="https://gianfranco-portfolio.vercel.app/?lang=es" />
+    <link rel="alternate" hreflang="x-default" href="https://gianfranco-portfolio.vercel.app/" />
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="/profile.png" fetchpriority="high" />
+    
+    <!-- Structured Data - Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://gianfranco-portfolio.vercel.app/#person",
+      "name": "Gianfranco De La Cruz Lopez",
+      "givenName": "Gianfranco",
+      "familyName": "De La Cruz Lopez",
+      "alternateName": "xovnex",
+      "url": "https://gianfranco-portfolio.vercel.app",
+      "image": "https://gianfranco-portfolio.vercel.app/profile.png",
+      "email": "mailto:giandelacruzlopez@gmail.com",
+      "jobTitle": "Software Developer",
+      "description": "Computer Engineering & Systems student from Lima, Peru. Builds full-stack projects with Python, FastAPI, and React.",
+      "nationality": { "@type": "Country", "name": "Peru" },
+      "knowsLanguage": ["es", "en"],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Software Developer",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Lima, Peru"
+        },
+        "skills": "React, JavaScript, Vite, Python, FastAPI, Pydantic, SQLAlchemy, scikit-learn, NumPy, NetworkX, SQLite, Git"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universidad de San Martín de Porres",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lima",
+          "addressCountry": "Peru"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lima",
+        "addressCountry": "Peru"
+      },
+      "sameAs": [
+        "https://github.com/xovnex"
+      ],
+      "knowsAbout": [
+        "React",
+        "JavaScript",
+        "Vite",
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "SQLAlchemy",
+        "scikit-learn",
+        "NumPy",
+        "NetworkX",
+        "Algorithms",
+        "Full-Stack Development"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - WebSite Schema with SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://gianfranco-portfolio.vercel.app/#website",
+      "name": "Gianfranco De La Cruz Lopez",
+      "alternateName": "Gianfranco De La Cruz Lopez Portfolio",
+      "url": "https://gianfranco-portfolio.vercel.app",
+      "description": "Portfolio and blog of Gianfranco De La Cruz Lopez, a Computer Engineering & Systems student and software developer.",
+      "inLanguage": ["en", "es"],
+      "publisher": { "@id": "https://gianfranco-portfolio.vercel.app/#person" },
+      "author": { "@id": "https://gianfranco-portfolio.vercel.app/#person" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://gianfranco-portfolio.vercel.app/blog?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - ProfilePage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "name": "Gianfranco De La Cruz Lopez | Software Developer",
+      "description": "Portfolio of Gianfranco De La Cruz Lopez, a Computer Engineering & Systems student from Lima, Peru.",
+      "url": "https://gianfranco-portfolio.vercel.app/",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Gianfranco De La Cruz Lopez",
+        "url": "https://gianfranco-portfolio.vercel.app/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gianfranco-portfolio.vercel.app/"
+        }]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

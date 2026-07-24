@@ -1,0 +1,83 @@
+# Gianfranco De La Cruz Lopez — https://gianfranco-portfolio.vercel.app
+# This site welcomes indexing by search engines and well-behaved AI crawlers.
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# --- Search engines ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# --- AI / LLM crawlers (explicit allowlist) ---
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl (powers many LLM training sets)
+User-agent: CCBot
+Allow: /
+
+# Meta / Apple
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Mistral, You.com, Cohere, xAI
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --- Sitemaps ---
+Host: https://gianfranco-portfolio.vercel.app
+Sitemap: https://gianfranco-portfolio.vercel.app/sitemap.xml
+Sitemap: https://gianfranco-portfolio.vercel.app/rss.xml

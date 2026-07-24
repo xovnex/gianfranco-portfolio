@@ -1,0 +1,12 @@
+# Gianfranco De La Cruz Lopez — Full Content Archive
+
+> Every blog post by Gianfranco De La Cruz Lopez, concatenated as plain Markdown for LLM consumption. For the curated site map, see /llms.txt. For the HTML site, see https://gianfranco-portfolio.vercel.app.
+
+- Site: https://gianfranco-portfolio.vercel.app
+- Blog: https://gianfranco-portfolio.vercel.app/blog
+- Author: Gianfranco De La Cruz Lopez (software developer, Lima, Peru)
+- Contact: giandelacruzlopez@gmail.com
+- Last updated: 2026-07-24
+
+---
+

@@ -1,0 +1,29 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#0B0C10"/>
+  <rect x="60" y="60" width="1480" height="780" rx="36" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="1290" cy="180" r="160" fill="#F4F1E8" fill-opacity="0.06"/>
+  <circle cx="340" cy="720" r="220" fill="#F4F1E8" fill-opacity="0.04"/>
+  <rect x="148" y="158" width="154" height="34" rx="17" fill="#F4F1E8" fill-opacity="0.1"/>
+  <text x="182" y="180" fill="#E9E7DF" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="3.6">AI FIELD NOTE 01</text>
+  <text x="144" y="300" fill="#F6F4EE" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700">How AI Actually</text>
+  <text x="144" y="390" fill="#F6F4EE" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700">Works</text>
+  <text x="148" y="474" fill="#B8B2A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">tokens / context windows / hallucinations / reasoning / multimodality</text>
+  <rect x="148" y="582" width="524" height="122" rx="22" fill="#12151C" stroke="rgba(255,255,255,0.08)"/>
+  <text x="184" y="628" fill="#B8B2A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">token_budget = total_window - reserved_output</text>
+  <text x="184" y="668" fill="#F6F4EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">128000 - 4000 = 124000</text>
+  <rect x="1042" y="258" width="360" height="384" rx="28" fill="#11131A" stroke="rgba(255,255,255,0.08)"/>
+  <text x="1082" y="322" fill="#F6F4EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">SYSTEM</text>
+  <rect x="1080" y="344" width="286" height="12" rx="6" fill="#F6F4EE" fill-opacity="0.14"/>
+  <rect x="1080" y="372" width="250" height="12" rx="6" fill="#F6F4EE" fill-opacity="0.14"/>
+  <text x="1082" y="438" fill="#F6F4EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">RETRIEVAL</text>
+  <rect x="1080" y="460" width="282" height="12" rx="6" fill="#F6F4EE" fill-opacity="0.14"/>
+  <rect x="1080" y="488" width="208" height="12" rx="6" fill="#F6F4EE" fill-opacity="0.14"/>
+  <text x="1082" y="554" fill="#F6F4EE" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">TOOLS</text>
+  <rect x="1080" y="576" width="300" height="12" rx="6" fill="#F6F4EE" fill-opacity="0.14"/>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="60" x2="1540" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111216"/>
+      <stop offset="1" stop-color="#0B0C10"/>
+    </linearGradient>
+  </defs>
+</svg>
