@@ -11,8 +11,8 @@ import { useLanguage } from '../i18n/LanguageContext';
  * (base + glow + markers), not ring-only.
  */
 const GLOBE_PULSE = {
-  originLat: 10.3932,
-  originLon: -75.4832,
+  originLat: -12.0464,
+  originLon: -77.0428,
   durationMs: 3000,
   /** RGB 0–1; single color for center dot and all ring dots (Cobe API) */
   markerColor: [1, 1, 1] as [number, number, number],
